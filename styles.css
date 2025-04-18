@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
   line-height: 1.6;
 	background-color:#E6F7FF;
-	padding-left:50px;
+	
 }
 
 header {
@@ -109,6 +109,7 @@ section {
   scroll-margin-top: 80px; /* match or slightly more than header height */
     font-size:18px;
 	color:#0A2E49;
+	padding-left:50px;
 	
 }
 .littleSpacer{
