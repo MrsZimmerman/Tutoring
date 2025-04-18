@@ -1,8 +1,153 @@
-<html>
-  <head>
-    
-  </head>
-  <body>
-    TUTORING
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erin's Tutoring and Tech Coaching</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Erin's Tutoring and Tech Coaching</h1>
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#service">Services</a>
+	  <a href="#rate">Rates</a>
+	  <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+	<section id = "home">
+	<center>
+	<img src = "logo3.png">
+	</center>
+	</section>
+	<p class ="littleSpacer"></p>
+	<section id = "about">
+	<h1>About Me</h1>
+	<p>I grew up in Exeter Township, where I still live today. 
+	I am currently a high school computer science teacher in Lancaster County,
+	and I have been passionate about helping others learn for as long as I can remember.</p>
+
+	<p>My tutoring journey began in 10th grade, when I started helping classmates 
+	through my school’s guidance office — mostly students who were struggling in math. 
+	That experience sparked a lifelong love for one-on-one learning support.</p>
+
+	<p>Since then, I’ve worked with a wide range of learners: from elementary 
+	students in an after-school program, to high school students 
+	I tutored weekly, to adults seeking to build confidence with computers and new technology.</p>
+
+	<p>Since graduating in 2015, I’ve continued tutoring high school students 
+	in various areas of mathematics, taught multiple summer camps, and 
+	provided personalized tech coaching for adults. Whether it’s a one-time 
+	session or ongoing support, I’m always excited to meet learners where 
+	they are and help them grow.</p>
+	<p class ="littleSpacer"></p>
+	<h1>Teaching Experience</h1>
+	<ul>
+	<li>10 years of public school teaching experience:
+	<ul>
+	<li class = "sublist">Grades: 5 - 12</li>
+	<li class = "sublist">Subjects: Mathematics, Computer Science, Technology</li>
+	</ul>
+	</li>
+	<li>9 summers teaching different camps, through Johns Hopkins University and Gettysburg College</li>
+	<li>15+ years of tutoring experience.</li>
+	</section>
+	<p class ="littleSpacer"></p>
+	<section id = "service">
+	<h1>Services</h1>
+	
+	<h2>Example Tutoring Topics include:</h2>
+	<ul>
+
+		<li>Elementary through Middle School Math (all levels)</li>
+		<li>Pre-Algebra</li>
+		<li>Algebra I & II</li>
+		<li>Geometry</li>
+		<li>Trigonometry</li>
+		<li>Pre-Calculus</li>
+		<li>Calculus I, II, & III</li>
+		<li>Applied "Real Life" Mathematics (Budgeting, Personal Finance)</li>
+	</ul>
+	<p class ="littleSpacer"></p>
+	<h2>Example Tech Help includes:</h2>
+	<ul>
+		<li>Setting Up New Devices & Accounts</li>
+		<li>Microsoft Word & Excel</li>
+		<li>Basic Computer Troubleshooting</li>
+		<li>Navigating Digital Tools (Email, Cloud Storage, File Management)</li>
+	</ul>	
+	<p class ="littleSpacer"></p>
+	<h2>Example Independent Course Topics include:</h2>
+	<ul>
+		<li>Computer Science Fundamentals</li>
+		<li>Website Design & Creation</li>
+		<li>Programming with Java </li>
+		<li>Programming with Python </li>
+		<li>Arduino Programming & Microcontroller Basics</li>
+	</ul>
+	
+	
+	</section>
+	<p class ="littleSpacer"></p>
+	<section id = "rate">
+	<h1>Rates</h1>
+	<h2>Tutoring (Math and Technology Support)</h2>
+	<p>Individualized support in subjects like high school math, computer science, or basic tech skills. 
+	Sessions can be one-time or ongoing based on your goals. </p>
+	<ul>
+	<li>First Hour: $30</li>
+	<li>Each Additional Hour (Same Session): $25</li>
+	</ul>
+	<p class ="littleSpacer"></p>
+	<h2>Independent Course Instruction</h2>
+	<p>For structured learning in a specific subject 
+	(such as a full intro to coding, tech skills bootcamp, or enrichment course),
+	a custom curriculum is developed and taught over several sessions.</p>
+	<ul>
+	<li>Rate: Starting at $40/hr</li>
+	<li>Includes lesson planning, custom materials, and guided instruction.</li>
+	</ul>
+	<p>Not sure which option is right for you? <a href = "#contact">Contact me</a> and we’ll find the best fit for your learning goals.</p>
+	</section>
+	<p class ="littleSpacer"></p>
+	<section id = "testimonials">
+	<h1>Testimonials</h1>
+	<p class = "testimonials">"Erin taught me in 3 weeks what I couldn't learn in a year" - Gabe</p>
+
+	<p class = "testimonials">"Erin really helped me with my math class by breaking down the math problems 
+	and going over them with me again and again until I finally understood them. 
+	The next test I received a 100% and I could not have done it without her patience 
+	with me and knowledge of the subject I was struggling with. She is truly and 
+	knowledgeable and dedicated tutor." - Danielle</p>
+	</section>
+	<p class ="littleSpacer"></p>
+	<section id = "contact">
+	<h1>Contact Me</h1>
+	<form name="contact" method="POST" data-netlify="true">
+	  <label for="name">Name:</label>
+	  <input type="text" id="name" name="name" required>
+
+	  <label for="email">Email:</label>
+	  <input type="email" id="email" name="email" required>
+
+	  <label for="message">Message:</label>
+	  <textarea id="message" name="message" required></textarea>
+
+	  <button type="submit">Send</button>
+	</form>
+
+	</section>
+
+	
+    <div class="spacer"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
