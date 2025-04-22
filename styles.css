@@ -102,7 +102,7 @@ main {
 }
 
 .spacer {
-  height: 2000px; /* make page scrollable */
+  height: 200px; /* make page scrollable */
 }
 html {
   scroll-behavior: smooth;
