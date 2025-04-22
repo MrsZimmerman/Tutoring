@@ -10,7 +10,12 @@ body {
 	background-color:#E6F7FF;
 	
 }
-
+.image{
+	float:left;
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+}
 header {
   position: fixed;
   top: 0;
